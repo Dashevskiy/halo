@@ -1,0 +1,86 @@
+.card {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  min-width: 288px;
+  background-color: #FFF;
+  margin: 24px;
+  box-shadow: 24px 24px 40px rgba(75, 207, 160, 0.08);
+  border-radius: 24px;
+
+  .card__category {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #000;
+    opacity: 0.5;
+    text-transform: uppercase;
+  }
+
+  .card__name {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #000;
+    text-transform: capitalize;
+  }
+
+  .card__price {
+    display: flex;
+    justify-content: space-between;
+
+    .card-price__block {
+      display: flex;
+      align-items: flex-start;
+
+      .card__currency {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: #000;
+      }
+
+      .card__amount {
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 72px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: #000;
+      }
+    }
+
+    .card__btn {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      outline: none;
+      color: #4BCFA0;
+      background-color: #fff;
+      border-radius: 16px;
+      padding: 16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: #4BCFA0;
+        color: #fff;
+      }
+    }
+  }
+}

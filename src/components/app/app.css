@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  padding: 25px 0;
+}
+
+.modal-none {
+  display: none;
+}
+
+.modal-visible {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,24 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #F2F2F2;
+}
+
+@media only screen and (max-width: 400px) {
+  .card {
+    min-width: 200px;
+    margin: 24px 0;
+  }
+  .card .card__name {
+    font-size: 32px;
+  }
+  .card .card__price .card-price__block .card__currency {
+    font-size: 24px;
+  }
+  .card .card__price .card-price__block .card__amount {
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=cards.css.map */
